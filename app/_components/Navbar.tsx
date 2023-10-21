@@ -1,4 +1,3 @@
-// interface NavbarProps {}
 import navBarContent from '@/app/_content/navbar.json'
 import Link from 'next/link'
 import NavbarLink from './NavbarLink'
@@ -17,7 +16,7 @@ function Navbar() {
 
         <ul className="hidden md:flex gap-12">
           {navBarContent.navLinks?.map(({ title, href }) => (
-            <NavbarLink href={href} title={title} />
+            <NavbarLink href={href} key={href} title={title} />
           ))}
         </ul>
         <MenuClose/>        

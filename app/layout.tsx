@@ -4,7 +4,6 @@ import './globals.css'
 import Navbar from '@/app/_components/Navbar'
 import cn from 'classnames'
 import Providers from './providers'
-import AboutMe from './_components/AboutMe'
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -26,8 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(roboto.className, 'bg-primary')}>
         <Providers>
-          <Navbar />
-          <AboutMe/>
+          <Navbar />          
           {children}
         </Providers>
       </body>

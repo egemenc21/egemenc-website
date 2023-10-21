@@ -1,0 +1,36 @@
+[
+  {
+    "title": "frontend",
+    "skill": [
+      { "id": 1, "name": "html/css" },
+      { "id": 2, "name": "javascript" },
+      { "id": 3, "name": "react" },
+      { "id": 4, "name": "redux" },
+      { "id": 5, "name": "tailwind" },
+      { "id": 6, "name": "gatsby" },
+      { "id": 7, "name": "typescript" }
+    ]
+  },
+  {
+    "title": "backend",
+    "skill": [
+      { "id": 23, "name": "firebase" },
+      { "id": 231, "name": "node.js" },
+      { "id": 8, "name": "express" },
+      { "id": 9, "name": "next.js" },
+      { "id": 10, "name": "graphql" },
+      { "id": 11, "name": "java" }
+    ]
+  },
+  {
+    "title": "others",
+    "skill": [
+      { "id": 13, "name": "git" },
+      { "id": 14, "name": "github" },
+      { "id": 15, "name": "react" },
+      { "id": 16, "name": "react" },
+      { "id": 17, "name": "react" },
+      { "id": 18, "name": "react" }
+    ]
+  }
+]

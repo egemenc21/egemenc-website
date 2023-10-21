@@ -5,25 +5,24 @@ import ReactTyped from 'react-typed'
 import TypedTitle from './TypedTitle'
 // interface AboutMeProps {}
 
-function AboutMe() {
+function About() {
   return (
     <section
-      className="flex max-md:flex-col justify-center gap-10 items-center w-[80%] mx-auto my-[50px] text-[#F6F1EE] "
+      className="flex max-md:flex-col justify-center gap-10 items-center w-[80%] mx-auto my-[50px] "
       id="about"
     >
       <div className="p-8">
-        <h1 className="text-3xl mb-4">
+        <h1 className="text-3xl max-md:text-center mb-4">
         <TypedTitle typedStrings={about.typedStrings}/>
           <br />
           {about.title}
         </h1>
-        <h2 className="text-2xl  text-[#ED7D31] font-bold tracking-wide italic inline rounded-lg overflow-hidden">
+        <h2 className="text-2xl max-md:text-center text-tertiary font-bold tracking-widest italic overflow-hidden">
           {about.job}
         </h2>
         <p className="text-gray-500 mt-4 text-lg tracking-wide ">
           {about.description}
         </p>
-        {/* <div className="max-md:grid max-md:grid-cols-3 justify-items-center flex mt-8 gap-5"></div> */}
       </div>
       <Image
         className="max-w-[250px] rounded-lg max-md:-order-1 m-4"
@@ -36,4 +35,4 @@ function AboutMe() {
   )
 }
 
-export default AboutMe
+export default About

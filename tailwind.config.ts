@@ -9,9 +9,9 @@ const config: Config = {
   theme: {
     colors:{
       "primary": "#292727",
-      "secondary": "#948346",
-      "tertiary":"#404040",
-      "quaternary":"#CE643A"
+      "secondary": "#F6F1EE",
+      "tertiary":"#ED7D31",
+      "quaternary":"#6C5F5B"
     },
     extend: {
       backgroundImage: {
