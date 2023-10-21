@@ -7,15 +7,15 @@ import NavSmallScreen from './NavSmallScreen'
 
 function Navbar() {
   return (
-    <header className="w-[85%] mx-auto py-8 text-[#F5E8B7] ">
-      <nav className="flex justify-between items-center  ">
-        <h1 className="text-5xl">
+    <header className="w-[85%] mx-auto py-8 text-[#F6F1EE] md:border-b border-b-[#6C5F5B]">
+      <nav className="flex justify-between items-center mx-4">
+        <h1 className="text-3xl">
           <Link href={navBarContent.heading.href}>
             {navBarContent.heading.title}
           </Link>
         </h1>
 
-        <ul className="hidden lg:flex gap-12 mr-[50px] ">
+        <ul className="hidden md:flex gap-12">
           {navBarContent.navLinks?.map(({ title, href }) => (
             <NavbarLink href={href} title={title} />
           ))}
