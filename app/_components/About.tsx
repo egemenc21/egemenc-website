@@ -1,37 +1,19 @@
-'use client'
-import Image from 'next/image'
-import about from '@/app/_content/about.json'
-import ReactTyped from 'react-typed'
-import TypedTitle from './TypedTitle'
-// interface AboutMeProps {}
+// interface AboutProps {}
+
+import Head from 'next/head'
+import AnimatedText from './AnimatedText'
 
 function About() {
   return (
-    <section
-      className="flex max-md:flex-col justify-center gap-10 items-center w-[80%] mx-auto my-[50px] "
-      id="about"
-    >
-      <div className="p-8">
-        <h1 className="text-3xl max-md:text-center mb-4">
-        <TypedTitle typedStrings={about.typedStrings}/>
-          <br />
-          {about.title}
-        </h1>
-        <h2 className="text-2xl max-md:text-center text-tertiary font-bold tracking-widest italic overflow-hidden">
-          {about.job}
-        </h2>
-        <p className="text-gray-500 mt-4 text-lg tracking-wide ">
-          {about.description}
-        </p>
-      </div>
-      <Image
-        className="max-w-[250px] rounded-lg max-md:-order-1 m-4"
-        src="/egemen-celik-portf.jpeg"
-        width={250}
-        height={400}
-        alt="Personal Image"
-      />
-    </section>
+    <>
+      <Head>
+        <title>Egemen Celik | About Page</title>
+        <meta name='description' content='any description'/>
+      </Head>
+      <section>
+        <AnimatedText text='Passion Fuels Purpose!' className='text-6xl text-[#fff]'/>        
+      </section>
+    </>
   )
 }
 

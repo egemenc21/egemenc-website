@@ -1,12 +1,9 @@
-import About from "./_components/About";
-import Skills from "./_components/Skills";
+import Introduction from './_components/Introduction'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center">
-      <About/>
-      <Skills/>           
-      
+    <main className="flex min-h-[80vh] flex-col items-center">
+      <Introduction />
     </main>
   )
 }

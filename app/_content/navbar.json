@@ -1,8 +1,9 @@
-
 {
-    "navLinks":[{ "title":"Skills","href":"skills"},
-    { "title":"Projects","href":"projects"},
-    { "title":"Contact","href":"contact"},
-    { "title":"CV","href":"cv"}],
-    "heading": { "title":"EgemenC.","href":"/"}
+  "navLinks": [
+    { "title": "Home", "href": "/" },
+    { "title": "About", "href": "/about" },
+    { "title": "Projects", "href": "/projects" },
+    { "title": "CV", "href": "/cv" }
+  ],
+  "heading": { "title": "EgemenC.", "href": "/" }
 }

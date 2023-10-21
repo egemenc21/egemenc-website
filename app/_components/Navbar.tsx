@@ -1,10 +1,15 @@
+'use client'
 import navBarContent from '@/app/_content/navbar.json'
 import Link from 'next/link'
 import NavbarLink from './NavbarLink'
 import MenuClose from './MenuClose'
 import NavSmallScreen from './NavSmallScreen'
+import { usePathname } from 'next/navigation'
 
 function Navbar() {
+  const route = usePathname()
+  console.log(route)
+
   return (
     <header className="w-[85%] mx-auto py-8 text-[#F6F1EE] md:border-b border-b-[#6C5F5B]">
       <nav className="flex justify-between items-center mx-4">
@@ -16,11 +21,11 @@ function Navbar() {
 
         <ul className="hidden md:flex gap-12">
           {navBarContent.navLinks?.map(({ title, href }) => (
-            <NavbarLink href={href} key={href} title={title} />
+            <NavbarLink route={route} href={href} key={href} title={title} />
           ))}
         </ul>
-        <MenuClose/>        
-        <NavSmallScreen navBarContent={navBarContent}/>
+        <MenuClose />
+        <NavSmallScreen navBarContent={navBarContent} />
       </nav>
     </header>
   )

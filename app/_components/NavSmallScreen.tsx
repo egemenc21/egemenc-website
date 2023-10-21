@@ -3,6 +3,7 @@ import Link from 'next/link'
 import NavbarLink from './NavbarLink'
 import { NavigationContext } from '../_context/navigation'
 import { useContext } from 'react'
+import { usePathname } from 'next/navigation'
 
 interface Link {
   title: string
@@ -17,26 +18,25 @@ interface NavSmallScreenProps {
 }
 
 function NavSmallScreen({ navBarContent }: NavSmallScreenProps) {
-  const { title, href } = navBarContent.heading
   const { navState, changeNavState } = useContext(NavigationContext)
+  const route = usePathname()
 
   if (!navState) return
 
   return (
     <>
-    <div className='fixed left-0 top-0 bg-tertiary w-[80%] h-full' >
-         <ul className="text-xl flex flex-col items-end justify-center my-[25%] gap-10 border-r-4 border-primary pr-4">
-        {/* <li>
-          <Link className="text-5xl" href={href}>
-            {title}
-          </Link>
-        </li> */}
-        {navBarContent.navLinks?.map(({ title, href }) => (
-          <NavbarLink onClick={changeNavState} href={href} title={title} />
-        ))}
-      </ul>
-    </div>
-     
+      <div className="min-w-[70vw] p-10 h-[50%] fixed left-1/2 top-1/2 bg-quaternary opacity-90 -translate-x-1/2 -translate-y-2/3 backdrop-blur-md rounded-lg">
+        <ul className="flex flex-col items-center justify-center gap-10 text-xl h-full">
+          {navBarContent.navLinks?.map(({ title, href }) => (
+            <NavbarLink
+              route={route}
+              onClick={changeNavState}
+              href={href}
+              title={title}
+            />
+          ))}
+        </ul>
+      </div>
     </>
   )
 }

@@ -7,7 +7,7 @@ interface SkillsProps {
 
 function Skills() {
   return (
-    <section className="flex justify-center items-center gap-12">
+    <section className="flex flex-wrap justify-center items-center gap-12">
       {skills.map(({ title, skill }) => (
         <SkillItem key={title} skill={skill} title={title} />
       ))}
