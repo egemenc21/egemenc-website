@@ -2,7 +2,10 @@ import SkillItem from './SkillItem'
 import skills from '@/app/_content/skills.json'
 
 interface SkillsProps {
-  skills: { title: string; skill: { id: number; name: string }[] }[]
+  skills: {
+    title: string
+    skill: { id: number; name: string; progress: number }[]
+  }[]
 }
 
 function Skills() {

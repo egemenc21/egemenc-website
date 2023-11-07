@@ -23,7 +23,7 @@ const singleWord = {
     opacity: 1,
     y: 0,
     transition: {
-      duration: 1,
+      duration: 0.7,
     },
   },
 }
@@ -41,7 +41,7 @@ function AnimatedText({ text, className }: AnimatedTextProps) {
         initial="initial"
         animate="animate"
         className={cn(
-          'inline-block w-full text-secondary capitalize text-8xl',
+          'inline-block w-full capitalize text-8xl text-primary dark:text-secondary ',
           className
         )}
       >

@@ -1,18 +1,16 @@
 import Image from 'next/image'
 import introduction from '@/app/_content/introduction.json'
-import ReactTyped from 'react-typed'
 import TypedTitle from './TypedTitle'
-// interface AboutMeProps {}
 
 function Introduction() {
   return (
     <section
-      className="flex max-md:flex-col justify-center gap-10 items-center w-[80%] mx-auto my-[50px] "
+      className="flex max-md:flex-col justify-center gap-10 items-center w-[80%] md:w-[70%] mx-auto my-[50px] "
       id="about"
     >
       <div className="p-8">
         <h1 className="text-3xl max-md:text-center mb-4">
-        <TypedTitle typedStrings={introduction.typedStrings}/>
+          <TypedTitle typedStrings={introduction.typedStrings} />
           <br />
           {introduction.title}
         </h1>
