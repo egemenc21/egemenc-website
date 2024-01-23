@@ -1,3 +1,11 @@
+## MY PORTFOLIO WEBSITE WITH NEXT.JS
+If you'd like to visit it here is the link: www.egemenc.com,
+Hope you'll appreciate my work :)
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
