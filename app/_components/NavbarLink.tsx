@@ -7,13 +7,18 @@ interface NavbarLinkProps {
 }
 
 function NavbarLink({ href, title, onClick }: NavbarLinkProps) {
+  const outsideLink = href.startsWith('https://') ? true : false
   return (
     <li
       key={href}
       onClick={onClick}
-      className=" dark:hover:text-tertiary dark:text-secondary text-primary hover:text-quaternary pb-1 h-8 font-medium  "
+      className=" dark:hover:text-tertiary hover:text-quaternary transition-colors dark:text-secondary text-primary max-md:hover:text-tertiary max-md:text-secondary  pb-1 h-8 font-medium  "
     >
-      <Link href={`#${href}`} className="">
+      <Link
+        href={outsideLink ? href : `#${href}`}
+        target={outsideLink ? '_blank' : '_self'}
+        className=""
+      >
         {title}
       </Link>
     </li>

@@ -13,11 +13,11 @@ function Theme() {
     }
   }
   return (
-    <div onClick={handleTheme}>
+    <div onClick={handleTheme} className='cursor-pointer max-md:hover:text-tertiary max-md:text-secondary  dark:hover:text-tertiary transition-colors'>
       {theme === 'dark' ? (
-        <MdOutlineDarkMode size={25} />
-      ) : (
         <MdLightMode size={25} />
+      ) : (
+        <MdOutlineDarkMode size={25} />
       )}
     </div>
   )
