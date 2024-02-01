@@ -7,7 +7,7 @@ import Providers from './providers'
 import Footer from './_components/Footer'
 
 const poppins = Poppins({
-  weight: ['300', '400', '500', '700'],
+  weight: ['300', '400', '500', '700','800'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
   display: 'swap',
