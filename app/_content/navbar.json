@@ -3,8 +3,7 @@
     { "title": "Home", "href": "" },
     { "title": "About", "href": "about" },
     { "title": "Skills", "href": "skills" },
-    { "title": "Projects", "href": "projects" },
-    { "title": "CV", "href": "https://drive.google.com/file/d/1pcC1UPfccJagASkcPeoXrdQyft3clcxD/view?usp=sharing" }
+    { "title": "Projects", "href": "projects" }
   ],
   "heading": { "title": "EgemenC.", "href": "/" }
 }

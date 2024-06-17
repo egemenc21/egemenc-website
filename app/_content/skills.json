@@ -4,39 +4,49 @@
     "skill": [
       { "id": 1, "name": "html/css" },
       { "id": 2, "name": "javascript" },
-      { "id": 3, "name": "react" },
-      { "id": 4, "name": "redux" },
-      { "id": 9, "name": "next.js" },
-      { "id": 5, "name": "tailwind" },
-      { "id": 52, "name": "sass" },
-      { "id": 6, "name": "gatsby" },
-      { "id": 7, "name": "typescript" }
+      { "id": 3, "name": "typescript" },
+      { "id": 4, "name": "react" },
+      { "id": 5, "name": "next.js" },
+      { "id": 6, "name": "redux" },
+      { "id": 7, "name": "Angular" },
+      { "id": 8, "name": "PrimeNG" },
+      { "id": 9, "name": "tailwind" },
+      { "id": 10, "name": "bootstrap" },
+      { "id": 11, "name": "sass" },
+      { "id": 12, "name": "gatsby" }
     ]
   },
   {
     "title": "backend",
     "skill": [
-      { "id": 23, "name": "firebase" },
-      { "id": 231, "name": "node.js" },
-      { "id": 8, "name": "express" },      
-      { "id": 10, "name": "graphql" },
-      { "id": 11, "name": "java" },
-      { "id": 30, "name": "C#" },
-      { "id": 31, "name": "asp.net core" },
-      { "id": 32, "name": "MongoDb" },
-      { "id": 33, "name": "Postgres" }
+      { "id": 13, "name": "firebase" },
+      { "id": 18, "name": "C#" },
+      { "id": 19, "name": "Asp.Net Core" },
+      { "id": 14, "name": "node.js" },
+      { "id": 15, "name": "express.js" },
+      { "id": 16, "name": "GraphQl" },
+      { "id": 17, "name": "java" },
+      { "id": 20, "name": "MongoDb" },
+      { "id": 21, "name": "PostgreSQL" },
+      { "id": 22, "name": "Python" },
+      { "id": 23, "name": "Django" }
     ]
   },
   {
     "title": "others",
     "skill": [
-      { "id": 13, "name": "git" },
-      { "id": 14, "name": "github" },     
-      { "id": 15, "name": "CI/CD" },
-      { "id": 16, "name": "docker" },
-      { "id": 17, "name": "figma" },
-      { "id": 18, "name": "jest" },
-      { "id": 19, "name": "EsLint" }
+      { "id": 24, "name": "git" },
+      { "id": 25, "name": "Agile/Scrum" },
+      { "id": 26, "name": "docker" },
+      { "id": 27, "name": "CI/CD" },
+      { "id": 28, "name": "github" },
+      { "id": 29, "name": "figma" },
+      { "id": 30, "name": "Jest Testing Library" },
+      { "id": 31, "name": "OOP" },
+      { "id": 32, "name": "Linux" },
+      { "id": 33, "name": "Jira" },
+      { "id": 34, "name": "Npm" },
+      { "id": 35, "name": "Yarn" }
     ]
   }
 ]
