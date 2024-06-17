@@ -28,11 +28,11 @@ function SkillItem({ skill, title }: SkillItemProps) {
       </h3>
       <ul className="flex flex-col items-center justify-center gap-2 py-4 text-[#fff] w-full">
         {skill?.map(({ id, name, progress }) => (
-          <li key={id} className="flex w-full gap-2 justify-start">
-            <span className="basis-1/3 text-primary dark:text-secondary text-lg">
+          <li key={id} className="flex w-full gap-2 justify-center">
+            <span className="text-center text-primary dark:text-secondary text-lg">
               {name}
             </span>
-            <div className="bg-quaternary dark:bg-secondary basis-2/3 relative rounded-lg p-2 z-10">
+            {/* <div className="bg-quaternary dark:bg-secondary basis-2/3 relative rounded-lg p-2 z-10">
               <motion.div
                 variants={singleSkill}
                 className={`bg-tertiary rounded-lg absolute inset-0 top-0 flex justify-end items-center `}
@@ -42,7 +42,7 @@ function SkillItem({ skill, title }: SkillItemProps) {
                   {progress / 10}
                 </span>
               </motion.div>
-            </div>
+            </div> */}
           </li>
         ))}
       </ul>

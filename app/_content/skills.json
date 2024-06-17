@@ -2,33 +2,41 @@
   {
     "title": "frontend",
     "skill": [
-      { "id": 1, "name": "html/css", "progress": 80 },
-      { "id": 2, "name": "javascript", "progress": 85 },
-      { "id": 3, "name": "react", "progress": 90 },
-      { "id": 4, "name": "redux", "progress": 70 },
-      { "id": 5, "name": "tailwind", "progress": 80 },
-      { "id": 52, "name": "sass", "progress": 80 },
-      { "id": 6, "name": "gatsby", "progress": 70 },
-      { "id": 7, "name": "typescript", "progress": 80 }
+      { "id": 1, "name": "html/css" },
+      { "id": 2, "name": "javascript" },
+      { "id": 3, "name": "react" },
+      { "id": 4, "name": "redux" },
+      { "id": 9, "name": "next.js" },
+      { "id": 5, "name": "tailwind" },
+      { "id": 52, "name": "sass" },
+      { "id": 6, "name": "gatsby" },
+      { "id": 7, "name": "typescript" }
     ]
   },
   {
     "title": "backend",
     "skill": [
-      { "id": 23, "name": "firebase", "progress": 80 },
-      { "id": 231, "name": "node.js", "progress": 70 },
-      { "id": 8, "name": "express", "progress": 60 },
-      { "id": 9, "name": "next.js", "progress": 70 },
-      { "id": 10, "name": "graphql", "progress": 70 },
-      { "id": 11, "name": "java", "progress": 70 },
-      { "id": 13, "name": "python", "progress": 70 }
+      { "id": 23, "name": "firebase" },
+      { "id": 231, "name": "node.js" },
+      { "id": 8, "name": "express" },      
+      { "id": 10, "name": "graphql" },
+      { "id": 11, "name": "java" },
+      { "id": 30, "name": "C#" },
+      { "id": 31, "name": "asp.net core" },
+      { "id": 32, "name": "MongoDb" },
+      { "id": 33, "name": "Postgres" }
     ]
   },
   {
     "title": "others",
     "skill": [
-      { "id": 13, "name": "git", "progress": 70 },
-      { "id": 14, "name": "github", "progress": 70 }      
+      { "id": 13, "name": "git" },
+      { "id": 14, "name": "github" },     
+      { "id": 15, "name": "CI/CD" },
+      { "id": 16, "name": "docker" },
+      { "id": 17, "name": "figma" },
+      { "id": 18, "name": "jest" },
+      { "id": 19, "name": "EsLint" }
     ]
   }
 ]
