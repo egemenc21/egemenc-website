@@ -19,23 +19,25 @@
   {
     "title": "backend",
     "skill": [
-      { "id": 13, "name": "firebase" },
       { "id": 18, "name": "C#" },
       { "id": 19, "name": "Asp.Net Core" },
+      { "id": 13, "name": "firebase" },
       { "id": 14, "name": "node.js" },
-      { "id": 15, "name": "express.js" },
-      { "id": 16, "name": "GraphQl" },
-      { "id": 17, "name": "java" },
+      { "id": 15, "name": "deno" },
+      { "id": 16, "name": "express.js" },
+      { "id": 17, "name": "GraphQl" },
+      { "id": 18, "name": "java" },
       { "id": 20, "name": "MongoDb" },
       { "id": 21, "name": "PostgreSQL" },
       { "id": 22, "name": "Python" },
-      { "id": 23, "name": "Django" }
+      { "id": 23, "name": "FastAPI" }
     ]
   },
   {
     "title": "others",
     "skill": [
       { "id": 24, "name": "git" },
+      { "id": 36, "name": "MCP" },
       { "id": 25, "name": "Agile/Scrum" },
       { "id": 26, "name": "docker" },
       { "id": 27, "name": "CI/CD" },

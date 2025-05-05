@@ -15,11 +15,11 @@ function Introduction() {
         <h1 className="text-3xl max-md:text-center mb-4">Egemen Celik</h1>
 
         <h2 className="text-2xl max-md:text-center text-tertiary font-bold tracking-widest italic overflow-hidden">
-          Frontend Developer
+           Software Developer
         </h2>
         <p className="mt-4 text-xl tracking-wide text-start text-clip">
           As a skilled Software developer, I am dedicated to turning ideas
-          into innovative web applications. Explore my latest projects, showcasing my expertise in React.js and web development.
+          into innovative web applications. Explore my latest projects, showcasing my expertise in React, TypeScript, Deno, Node.js, C#, and web development.
         </p>
       </div>
       <Image
